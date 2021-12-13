@@ -1,0 +1,3 @@
+index.html
+    when this file is in the root directory, the web browser thinks this is the home page of the website
+    good when using one webpage
