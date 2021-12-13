@@ -1,3 +1,32 @@
 index.html
     when this file is in the root directory, the web browser thinks this is the home page of the website
     good when using one webpage
+    HTML defines layouts for a webpage using tags
+
+<!DOCTYPE html>
+    tells web browser the type of the document --> html document
+    single tag, only needed onces
+
+container tag
+    starting tag and ending tag, contains content or other html tags
+    EX. <html> ... content ... </html>
+
+head tags
+    data about the document
+    title, description, other attributes (associated image), import resources
+    command center --> meta data about the actual file
+
+body tags
+    meat and bones, generally a lot bigger than the head
+    content of the webpage, gets parsed and rendered by the browser
+
+HTML Skeleton:
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+    </body>
+</html>
