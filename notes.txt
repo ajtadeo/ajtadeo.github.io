@@ -19,6 +19,11 @@ head tags
 body tags
     meat and bones, generally a lot bigger than the head
     content of the webpage, gets parsed and rendered by the browser
+    order of documents in html file reflects the order on the website
+    dont care about white space, only whats in the tags
+
+meta tag
+    meta information about our file
 
 HTML Skeleton:
 <!DOCTYPE html>
@@ -30,3 +35,24 @@ HTML Skeleton:
         
     </body>
 </html>
+
+HEAD TAGS
+    <title>Name of Website</title>  // title of website
+    <meta charset="UTF-8"> // character set for file
+    <meta name="description" content="This is Alyssa's website!"> // set descrition of website
+
+BODY TAGS
+    <h1>Header 1</h1> // heading 1-6
+    <p>body</p> // good for writing blocks of text, format themselves
+    <b>text</b> // bolds certain words in a body of text
+    <i>text</i> // italicizes text
+    <br/> // break tag, new line
+    <hr/> // horizontal rule, line across website
+    <big>text</big> // makes text bigger
+    <small>text</small> // makes text smaller
+    <sub>text</sub> // subscript text
+    <sup>text</sup> // superscript text
+
+Comments
+<!-- line comment -->
+
