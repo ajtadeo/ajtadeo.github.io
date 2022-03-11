@@ -1,3 +1,79 @@
-p{
-    color: red
+html{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+    color:#FEFEFE;
+    background-color: #1B332C;
+}
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #455D58;
+    padding: 0 20px 20px 20px;
+}
+
+h1{
+    font-size: 60px;
+    margin:0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+h3{
+    font-size: 40px;
+    font-style: italic;
+    margin: 0;
+    padding: 20px 0;
+}
+
+h4{
+    font-size: 30px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+p, li{
+    font-size: 20px;
+}
+
+.container{
+    position: relative;
+}
+
+.wallpaper{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.container:hover .overlay{
+    opacity: 0.75;
+}
+
+.title {
+    color: #FEFEFE;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    text-align: center;
 }
