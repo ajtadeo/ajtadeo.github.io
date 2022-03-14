@@ -46,8 +46,10 @@ p, li{
     font-size: 16px;
 }
 
-.container{
-    position: relative;
+footer {
+    text-align: center;
+    font-size: 11px;
+    color: #162923;
 }
 
 .wallpaper{
@@ -56,30 +58,7 @@ p, li{
     height: auto;
 }
 
-.overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: black;
-}
-
-.container:hover .overlay{
-    opacity: 0.75;
-}
-
-.title {
-    color: #FEFEFE;
-    font-size: 60px;
-    display: grid;
-    place-items: center;
-    transform: translateY(50%);
-}
+/* navigation style */
 
 .topnav {
     background-color: #1B332C;
@@ -146,9 +125,3 @@ p, li{
 }
 
 .dropdown:hover .dropdown-content {display: block;}
-
-footer {
-    text-align: center;
-    font-size: 11px;
-    color: #162923;
-}
