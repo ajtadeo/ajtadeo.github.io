@@ -6,40 +6,44 @@ html{
 }
 
 body{
-    width: 1200px;
+    width: 1024px;
     margin: 0 auto;
     background-color: #455D58;
-    padding: 0 20px 20px 20px;
+    padding-bottom: 10px;
+}
+
+.content, footer{
+    padding: 0 40px;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 40px;
     margin:0;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
 h2{
-    font-size: 50px;
+    font-size: 30px;
     margin: 0;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 h3{
-    font-size: 40px;
+    font-size: 20px;
     font-style: italic;
     margin: 0;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 h4{
-    font-size: 30px;
+    font-size: 18px;
     margin: 0;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 p, li{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .container{
@@ -142,3 +146,9 @@ p, li{
 }
 
 .dropdown:hover .dropdown-content {display: block;}
+
+footer {
+    text-align: center;
+    font-size: 11px;
+    color: #162923;
+}
